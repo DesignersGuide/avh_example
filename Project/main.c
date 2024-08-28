@@ -59,7 +59,7 @@ static void test_my_sum_pos(void) {
 /* Testing summation of negative integers */
 static void test_my_sum_neg(void) {
   const int sum = my_sum(-1, -1);
-  TEST_ASSERT_EQUAL_INT(-3, sum);
+  TEST_ASSERT_EQUAL_INT(-2, sum);
 }
 
 /* Testing summation of zeros */
