@@ -111,7 +111,7 @@ int main (void) {
     !(defined(RTE_CMSIS_RTOS2_RTX5) || defined(RTE_CMSIS_RTOS2_FreeRTOS)))
   EventRecorderInitialize(EventRecordAll, 1U);
 #endif
-
+  printf("hello world \r\n");
   osKernelInitialize();                 // Initialize CMSIS-RTOS2
   app_initialize();                     // Initialize application
   osKernelStart();                      // Start thread execution
